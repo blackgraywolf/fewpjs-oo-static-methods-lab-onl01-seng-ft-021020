@@ -1,5 +1,11 @@
 class Formatter {
+<<<<<<< HEAD
   static capitalize(str) {
+=======
+  //add static methods here
+    static capitalize(str) {
+
+>>>>>>> 064cc7dacba4a3f5225764c14aae6c125278a08f
     var r = /\b\w/gi
 
     return str.replace(r,(match) => match.toUpperCase())
@@ -30,4 +36,8 @@ class Formatter {
     })
     return newArray.join(' ').charAt(0).toUpperCase() + newArray.join(' ').slice(1)
   }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> 064cc7dacba4a3f5225764c14aae6c125278a08f
 }
